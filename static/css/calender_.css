@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calendar {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header-calender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+.prev, .next {
+    color: #344bcf;
+    cursor: pointer;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    grid-row: span 3; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.day-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.appointments {
+margin-top: 20px;
+}
+
+.appointment-container {
+display: flex;
+justify-content: center;
+}
+.appointment-container button {
+color: white;
+background-color: #344bcf;
+border: none;
+padding: 10px;
+margin-right: 10px;
+cursor: pointer;
+width: 100px;
+}
+.appointment-container button:hover {
+    background-color: #7f9ee1;
+    color: #333;
+}

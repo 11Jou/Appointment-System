@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.form-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.info-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Additional styling for form fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #344bcf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
